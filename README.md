@@ -35,7 +35,7 @@ local function createLoadingScreen()
     image.Size = UDim2.new(0, 300, 0, 300)
     image.Position = UDim2.new(0.5, -150, 0.35, -150)
     image.BackgroundTransparency = 1
-    image.Image = "rbxassetid://108662620575463"
+    image.Image = "rbxassetid://11545268127"
     image.Parent = frame
 
     local nameText = Instance.new("TextLabel")
@@ -144,7 +144,6 @@ local Window = redzlib:MakeWindow({
 
 
 
-local Tab1 = Window:MakeTab({"Credits", "info"})
 local Tab2= Window:MakeTab({"Fun", "fun"})
 local Tab3 = Window:MakeTab({"Roupas", "shirt"})
 local Tab4 = Window:MakeTab({"House", "Home"})
